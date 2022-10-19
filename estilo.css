@@ -1,0 +1,338 @@
+* {
+	background: #fff; 
+	font-family: fantasy;, sans-serif;
+	text-decoration: none;
+	margin: 0;
+}
+
+.header {
+	background: #fff;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-evenly ;
+    margin-top: 1rem;
+ }
+   .logo {
+	height: 60px;
+	width: 60px;
+	background-color: #fff;
+    top: -10px;
+    position: relative;
+}
+.navegador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.navegador_li {
+	list-style: none;
+	display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    background-color: #fff;
+    }  
+.navegador_li a {
+    color: rgb(11, 9, 10);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vermas {
+    color: black;
+    background: none;
+}
+
+.img_main {
+    width: 120%;
+    position: relative;
+    left: -5rem;
+    top: rem;
+}
+.main_tarjeta h1 {
+    position: absolute;
+    font-size: 4rem;
+    bottom: 19rem;
+    padding: 2px;
+    background: none;
+}
+.main_tarjeta h2 {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 15rem;
+    padding: 2px;
+    border: rgb(11, 9, 10) 2px solid;
+    border-radius: 5%;
+    background: none;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    
+}
+
+.footer_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(11, 9, 10);
+    
+}
+
+.footer_div h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    background: none;
+}
+.footer_icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    list-style: none;
+    background:none;
+}
+.footer_div i {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 2rem;
+    background: none;
+}
+.footer_icons li {
+    background:none;
+}
+
+/*CONTACTANOS*/
+.form {
+    display: flex;
+    background-color: rgb(22, 26, 29);
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    
+}
+.contenedor{
+    background-color: rgb(73, 80, 87);
+    width: 80vw;
+    left: 8rem;
+    top: 10rem;
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 2%;
+}
+.contenedor_input {
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    background: none;
+    position: relative;
+
+}
+img {
+    display: inline-block;
+    position: right;
+    margin: 1rem;
+    background: none;
+    
+}
+.form_img {
+    position: relative;
+    left: 4rem;
+}
+.input {
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    border-bottom: rgb(222, 226, 230) 2px solid;
+    border-radius: 2%;
+    position: relative;
+    left: 1rem;
+    top: 1.3rem;
+    background: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.input::{
+    background-color:yellow ;
+    border: none;
+    border-bottom:rgb(233, 236, 239);
+    outline: none;
+}
+
+.a {
+    position:relative; 
+    bottom: 13rem;
+    background: none;
+}
+
+.b {
+    position: relative;
+    bottom: 10rem;
+    background: none;
+}
+.c {
+    position: relative;
+    bottom: 7rem;
+    background: none;
+    
+}
+textarea {
+    resize: none;
+}
+.d {
+    position: relative;
+    background: none;
+    right: -20rem;
+    bottom: 2rem;
+    
+}
+.submit {
+    
+}
+/*NOSOTROS*/
+
+.main_nos_contenedor {
+        display: flex;
+    height: 70vh;
+    width: 75vw;
+    position: absolute;
+    left: 12rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 15px, 0px 0px 15px rgb(177 167 166);
+}
+.nos_img {
+    position: relative;
+    left: 1rem;
+    top: 5rem;
+    height: 20rem;
+}
+
+.main_nos_h1 {
+    position: absolute;
+    left: 34rem;
+    top: 2rem;
+    font-size: 5rem;
+    background: none;
+    color: black;
+}
+.main_nos_p {
+    position: absolute;
+    left: 34rem;
+    top: 16rem;
+    width: 30rem;
+    height: 10rem;
+    font-size: 1rem
+}
+.nos_img_logo {
+    position: relative;
+    right: -20rem;
+    top: -2rem;
+    height: 18rem;
+}
+
+/**BUZOS**/
+
+.buzos_contenedor {
+    height: 75vh;
+    width: 80vw;
+    background-color: aliceblue;
+    position: absolute;
+    left: 10rem;
+    top: 6rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.buzos_tarjeta1 {
+    border: 3px black solid;
+    width: 10rem;
+    height: 14rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.buzo-h4 {
+    
+    padding-left: 3.8rem;
+}
+.buzo-img {
+    position: relative;
+    left: 0.2rem;
+}
+
+.buzo-h5 {
+    padding-left: 4rem;
+}
+.comprar {
+    border: 2px solid black;
+    margin-top: 1rem;
+    color: black;
+    border-radius: 0.8%;
+    width: 4rem;
+    position: relative;
+    left: 2.8rem;
+    padding: 1px;
+    bottom: 0.7rem;
+}
+
+/**vermas**/
+
+.contenedordecolecciones{
+    height: 75vh;
+    width: 80vw;
+    background-color: none;
+    position: absolute;
+    left: 10rem;
+    top: 6rem;
+    display: flex;
+    justify-content: 
+    
+}
+
+.vermas_colecciones {
+    border: 3px black solid;
+    width: 25rem;
+    height: 30rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 1.5rem;
+    background: none;
+}
+
+.colecciones_img {
+    position: relative;
+    left: 0.6rem;
+
+}
+.colecciones_h3{
+    position: absolute;
+    left: 2rem ;
+    top: 1rem;
+    color: black;
+    font-size: 2rem;
+    background:none;
+}
+
+.colecciones_a {
+    position: absolute;
+    left: 2.5rem;
+    bottom: 2rem;
+    background: #fff;
+    font-size: 2rem;
+}
