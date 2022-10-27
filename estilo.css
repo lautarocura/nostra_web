@@ -118,7 +118,7 @@ a {
     background-color: 
     /* left: 10rem; */
     top: 6rem;
-    display: flex;
+    display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -155,12 +155,69 @@ a {
     left: 2.8rem;
     bottom: 0.7rem;
 }
+.contenedor_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(248,249,250,1) 70%);
+    
+}
+form {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 black;
+    margin: 1rem 0;
+}
+.form {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+input, textarea {
+    background: none;
+    color: black;
+    padding: 10px;
+    margin: 1rem 0;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    resize: none;
+}
+.form_imput {
+    background-color: aliceblue;
+}
+input:active, textarea:active {
+    background-color: grey;
+}
+input:focus, textarea:focus {
+    outline: none;
+    color: black;
+    background: grey;
+}
+.footer {
+    position: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 @media screen and (max-width: 767px) {
     .nav-pills {
         display: none;
     }
-    
+    form {
+        width:100%;
+    }
 }
 @media screen and (max-width: 531px) {
     .nav-pills {
@@ -185,5 +242,7 @@ a {
         color: #fff;
         font-size: 0.9rem;
     }
-  
+    form {
+        width:100%;
+    }
 }
