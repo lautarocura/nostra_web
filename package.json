@@ -1,0 +1,25 @@
+{
+  "name": "preentrega_cura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/index.scss translate/translate.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lautarocura/nostra_web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lautarocura/nostra_web/issues"
+  },
+  "homepage": "https://github.com/lautarocura/nostra_web#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
