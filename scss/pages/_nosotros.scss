@@ -1,0 +1,29 @@
+.main_nos_contenedor {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px 0 black;
+    background-color: white;
+    &_img {
+        position: relative;
+        max-width: 60rem;
+      }
+    &_h1 {
+        display: block;
+        position: absolute;
+        right: 7rem;
+        top: 9rem;
+        width: 34rem;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(156,158,161,0.2752451322325805) 100%);
+        color: white;
+      }
+    &_p {
+        position: absolute;
+        right: 7rem;
+        top: 14rem;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(156,158,161,0.2752451322325805) 100%);
+        color: white;
+        width: 34rem;
+      }
+  }

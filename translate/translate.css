@@ -155,6 +155,32 @@ a {
   margin-bottom: 2rem; }
 
 /** NOSOTROS **/
+.main_nos_contenedor {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 6px 0 black;
+  background-color: white; }
+  .main_nos_contenedor_img {
+    position: relative;
+    max-width: 60rem; }
+  .main_nos_contenedor_h1 {
+    display: block;
+    position: absolute;
+    right: 7rem;
+    top: 9rem;
+    width: 34rem;
+    background: black;
+    background: linear-gradient(0deg, black 0%, rgba(156, 158, 161, 0.275245) 100%);
+    color: white; }
+  .main_nos_contenedor_p {
+    position: absolute;
+    right: 7rem;
+    top: 14rem;
+    background: black;
+    background: linear-gradient(0deg, black 0%, rgba(156, 158, 161, 0.275245) 100%);
+    color: white;
+    width: 34rem; }
+
 /** FOOTER **/
 .footer {
   position: unset;
@@ -180,7 +206,15 @@ a {
     height: 100%; }
   .vermas_colecciones {
     width: 100%;
-    height: 100%; } }
+    height: 100%; }
+  .main_nos_contenedor_img {
+    max-width: 47rem;
+    height: 38rem; }
+  .main_nos_contenedor_h1 {
+    width: 19rem; }
+  .main_nos_contenedor_p {
+    width: 27rem;
+    height: 24rem; } }
 
 @media screen and (max-width: 531px) {
   .nav-pills {
@@ -200,4 +234,10 @@ a {
     color: #fff;
     font-size: 0.9rem; }
   form {
-    width: 100%; } }
+    width: 100%; }
+  .main_nos_contenedor_h1 {
+    right: 0rem;
+    width: 25rem; }
+  .main_nos_contenedor_p {
+    right: 0rem;
+    width: 25rem; } }
