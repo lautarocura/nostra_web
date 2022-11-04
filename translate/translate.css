@@ -1,0 +1,203 @@
+/** NORMALIZE **/
+* {
+  background: #fff;
+  font-family: fantasy, sans-serif;
+  text-decoration: none;
+  margin: 0; }
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  height: 3rem;
+  position: absolute;
+  height: 4rem; }
+
+i {
+  text-decoration: none;
+  font-size: 2rem;
+  margin-left: 3px;
+  color: white;
+  background: none; }
+
+li {
+  list-style: none;
+  background: none; }
+
+a {
+  color: black;
+  text-decoration: none;
+  background: none; }
+
+/** HEADER **/
+.nav-pills .nav-link.active {
+  color: black;
+  background: none; }
+
+/** INDEX **/
+.grid_main_container {
+  display: grid;
+  grid-template-rows: 1rem 1fr 0.2rem 1fr 1rem;
+  grid-template-columns: repeat(3 1fr); }
+  .grid_main_container .main_img1 {
+    grid-row: 2 / span 3;
+    grid-column: 1/ span 3;
+    background: none; }
+  .grid_main_container .contenedor_tarjeta {
+    display: inline;
+    background: none;
+    position: relative;
+    top: 6rem;
+    left: 3.5rem; }
+    .grid_main_container .contenedor_tarjeta_h1 {
+      display: inline-block;
+      background: none; }
+    .grid_main_container .contenedor_tarjeta_h2 {
+      display: inline-block;
+      background: none; }
+      .grid_main_container .contenedor_tarjeta_h2 a {
+        color: black;
+        text-decoration: none;
+        background: none; }
+  .grid_main_container .main_img2 {
+    grid-row: 4 / span 5;
+    grid-column: 1/ span 3; }
+
+/** BUZOS **/
+.main_buzos {
+  margin: auto;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center; }
+  .main_buzos .buzos_contenedor {
+    height: 100%;
+    width: 100%;
+    top: 6rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .main_buzos .buzos_contenedor .buzos_tarjeta1 {
+      border: 3px black solid;
+      width: 10rem;
+      height: 14rem;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 0.5rem; }
+      .main_buzos .buzos_contenedor .buzos_tarjeta1 .buzo-img {
+        position: relative;
+        left: 1rem; }
+      .main_buzos .buzos_contenedor .buzos_tarjeta1 .buzo-h4 {
+        padding-left: 3.2rem;
+        padding-top: 0.5rem; }
+      .main_buzos .buzos_contenedor .buzos_tarjeta1 .buzo-h5 {
+        padding-left: 3.3rem; }
+      .main_buzos .buzos_contenedor .buzos_tarjeta1 .comprar {
+        border: 2px solid black;
+        margin-top: 0.2rem;
+        color: black;
+        border-radius: 0.8%;
+        width: 4rem;
+        position: relative;
+        left: 2.8rem;
+        bottom: 0.7rem; }
+
+/** CONTACTANOS **/
+.contenedor_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  background: linear-gradient(0deg, black 0%, #f8f9fa 70%); }
+  .contenedor_form form {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 black;
+    margin: 1rem 0;
+    background-color: white; }
+    .contenedor_form form .form {
+      width: 90%;
+      height: 80%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column; }
+      .contenedor_form form .form_imput {
+        background-color: aliceblue; }
+      .contenedor_form form .form input, .contenedor_form form .form textarea {
+        background: none;
+        color: black;
+        padding: 10px;
+        margin: 1rem 0;
+        display: block;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid black;
+        resize: none; }
+      .contenedor_form form .form input:active, .contenedor_form form .form textarea:active {
+        background-color: grey; }
+      .contenedor_form form .form input:focus, .contenedor_form form .form textarea:focus {
+        outline: none;
+        color: black;
+        background: grey; }
+
+/** VERMAS **/
+.contenedordecolecciones {
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 2rem; }
+
+/** NOSOTROS **/
+/** FOOTER **/
+.footer {
+  position: unset;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+  .footer_h2 {
+    background: none;
+    color: #fff; }
+  .footer_icons {
+    display: flex;
+    flex-direction: row;
+    background: none; }
+
+/** MEDIAQUERY **/
+@media screen and (max-width: 767px) {
+  .nav-pills {
+    display: none; }
+  form {
+    width: 100%; }
+  .contenedordecolecciones {
+    flex-direction: column;
+    height: 100%; }
+  .vermas_colecciones {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (max-width: 531px) {
+  .nav-pills {
+    display: none; }
+  .contenedor_tarjeta_h1 {
+    font-size: 1.5rem; }
+  .contenedor_tarjeta_h2 {
+    font-size: 1rem; }
+  .contenedor_tarjeta {
+    display: inline;
+    background: none;
+    position: relative;
+    top: 4rem;
+    left: 0.5rem; }
+  .footer_h2 {
+    background: none;
+    color: #fff;
+    font-size: 0.9rem; }
+  form {
+    width: 100%; } }

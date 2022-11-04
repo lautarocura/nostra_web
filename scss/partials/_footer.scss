@@ -1,0 +1,15 @@
+.footer {
+    position: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    &_h2 {
+        background: none;
+        color: #fff;
+   }
+    &_icons {
+        display: flex;
+        flex-direction: row;
+        background: none;
+    }
+}
